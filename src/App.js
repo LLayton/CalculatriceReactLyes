@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import {Button, Switch} from '@adobe/react-spectrum';
-import { clear } from '@testing-library/user-event/dist/clear';
+import {Button} from '@adobe/react-spectrum';
 function App() {
   const [OperationEnCours,setOperationEnCours]=useState(0);
 
